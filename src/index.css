@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:rott {
+    --very-dark-blue: hsl(235, 21%, 11%);
+    --very-dark-desaturated-blue: hsl(235, 24%, 19%);
+    --light-grayish-blue: hsl(234, 39%, 85%);
+    --dark-grayish-blue: hsl(234, 11%, 52%);
+    --very-dark-grayish: hsl(233, 14%, 35%);
+    --very-dark-grayish-blue: hsl(237, 14%, 26%);
+    /* hover */
+    --light-grayish-blue: hsl(236, 33%, 92%); 
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#header {
+    z-index: -1;
+}
+
+.bg-dark-mode {
+    background-color: var(--dark-grayish-blue);
+}
+
+.fondo-tareas {
+    background-color: var(--very-dark-blue);
+}
